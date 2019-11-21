@@ -31,7 +31,7 @@ export const configuration = configure<HelloWorldGoals>(async sdm => {
         description: "Command that responds with a 'hello world'",
         listener: async ci => {
             await ci.addressChannels("Hello World");
-        }, 
+        },   
     });
 
     // Create goals and configure them
