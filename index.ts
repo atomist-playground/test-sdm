@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.  
  */      
-      
+       
 import { AnyPush } from "@atomist/sdm";
 import { configure } from "@atomist/sdm-core"; 
 import { HelloWorldGoalConfigurer } from "./lib/goals/goalConfigurer";  
