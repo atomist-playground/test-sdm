@@ -33,7 +33,7 @@ export const configuration = configure<HelloWorldGoals>(async sdm => {
             await ci.addressChannels("Hello World");
         },   
     }); 
-
+ 
     // Create goals and configure them
     const goals = await sdm.createGoals(HelloWorldGoalCreator, [HelloWorldGoalConfigurer]);
 
