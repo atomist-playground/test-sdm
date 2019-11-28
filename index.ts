@@ -16,11 +16,11 @@
           
 import { AnyPush } from "@atomist/sdm";
 import { configure } from "@atomist/sdm-core"; 
-import { HelloWorldGoalConfigurer } from "./lib/goals/goalConfigurer";  
+import { HelloWorldGoalConfigurer } from "./lib/goals/goalConfigurer";   
 import { HelloWorldGoalCreator } from "./lib/goals/goalCreator"; 
 import { HelloWorldGoals } from "./lib/goals/goals";
      
-/**  
+/**   
  * The main entry point into the SDM        
  */   
 export const configuration = configure<HelloWorldGoals>(async sdm => {
