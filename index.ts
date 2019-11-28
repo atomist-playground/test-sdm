@@ -34,7 +34,7 @@ export const configuration = configure<HelloWorldGoals>(async sdm => {
         },   
     }); 
  
-    // Create goals and configure them
+    // Create goals and configure them 
     const goals = await sdm.createGoals(HelloWorldGoalCreator, [HelloWorldGoalConfigurer]);
 
     // Return all push rules
