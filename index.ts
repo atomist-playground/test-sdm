@@ -21,7 +21,7 @@ import { HelloWorldGoalCreator } from "./lib/goals/goalCreator";
 import { HelloWorldGoals } from "./lib/goals/goals";
      
 /**  
- * The main entry point into the SDM       
+ * The main entry point into the SDM        
  */  
 export const configuration = configure<HelloWorldGoals>(async sdm => {
    
