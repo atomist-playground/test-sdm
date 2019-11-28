@@ -28,7 +28,7 @@ export const configuration = configure<HelloWorldGoals>(async sdm => {
     // Use the sdm instance to configure commands etc
     sdm.addCommand({
         name: "HelloWorld", 
-        description: "Command that responds with a 'hello world'",
+        description: "Command that responds with a 'hello world'", 
         listener: async ci => {  
             await ci.addressChannels("Hello World");
         },   
